@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ElectricalMachine", "ElectricalMachine.njsproj", "{2DABB135-DED4-42FC-9ADA-7EE890E75279}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DABB135-DED4-42FC-9ADA-7EE890E75279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DABB135-DED4-42FC-9ADA-7EE890E75279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DABB135-DED4-42FC-9ADA-7EE890E75279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DABB135-DED4-42FC-9ADA-7EE890E75279}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA831266-2506-4A03-9903-7DBAF3409D44}
+	EndGlobalSection
+EndGlobal
