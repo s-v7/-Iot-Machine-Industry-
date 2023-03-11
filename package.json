@@ -4,7 +4,7 @@
   "description": "NodejsWebAppType",
   "main": "server.js",
   "author": {
-    "name": ""
+    "name": "Silas Vasconcelos Cruz -> s-v7"
   },
   "scripts": {
     "build": "tsc --build",
