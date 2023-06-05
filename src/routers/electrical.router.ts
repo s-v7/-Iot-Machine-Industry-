@@ -40,7 +40,7 @@ electricalMachineRouter.post("/", async (_req: Request, _res: Response) => {
         const result = await collections.electricalMachines.insertOne(newMachine);
 
         result
-            ? _res.status(201).send(`Successfully created a new game with id ${result.insertedId}`)
+            ? _res.status(201).send(`Successfully created a new machine with id ${result.insertedId}`)
             : _res.status(200).send("Failed to create a new machine");
     } catch (error) {
         console.error(error);
@@ -79,11 +79,11 @@ electricalMachineRouter.delete("/:id", async (_req: Request, _res: Response) => 
         const result = await collections.electricalMachines.deleteOne(query);
 
         if (result && result.deletedCount) {
-            _res.status(202).send(`Successfully removed game with id ${id}`);
+            _res.status(202).send(`Successfully removed machine with id ${id}`);
         } else if (!result) {
-            _res.status(400).sedn(`Failed to remove game with id ${id}`);
+            _res.status(400).sedn(`Failed to remove machine with id ${id}`);
         } else if (!result.deletedCount) {
-            _res.status(404).send(`Game with id ${id} does not exist`);
+            _res.status(404).send(`Machine with id ${id} does not exist`);
         }
     } catch (error) {
         console.error(error.message);
