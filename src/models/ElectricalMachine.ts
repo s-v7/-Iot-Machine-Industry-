@@ -5,7 +5,7 @@ export default class ElectricalMachine {
     public _id: ObjectId;
     public _typeMachine: string;
     public _stateMachine: boolean;
-    public _temperature: number
+    public _temperature: number;
 
     //constructor() { }  Optional 
     constructor(id: ObjectId, typeMachine: string, stateMachine: boolean, temperature: number) {
